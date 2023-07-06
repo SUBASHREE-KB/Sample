@@ -17,7 +17,8 @@ int main()
                 temp=str1[i];
                 str1[i]=str1[j];
                 str1[j]=temp;
-                i++;j--;
+                i++;
+                j--;
         }
         if((strcmp(str1,str2))==0)
                 printf("%s is a palindrome",str1);
